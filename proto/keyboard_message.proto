@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package techschool.pcbook;
+
+option go_package = ".;pb";
+
+message Keyboard {
+  enum Layout { //键盘布局
+    UNKNOWN = 0;
+    QWERTY = 1;
+    QWERTZ = 2;
+    AZERTY = 3;
+  }
+
+  Layout layout = 1;
+  bool backlit = 2; //有无背光
+}

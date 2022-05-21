@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/leilei/workspace/code/grpc'
+protoc --proto_path=proto proto/*.proto --go-grpc_out=pb --go_out=pb
+make: Leaving directory '/home/leilei/workspace/code/grpc'
+ 
