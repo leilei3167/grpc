@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat May 21 22:30:26 2022
+# Make data base, printed on Tue May 24 21:30:16 2022
 
 # Variables
 
@@ -17,7 +17,7 @@ make: *** No rule to make target 'all'.  Stop.
 # automatic
 ?F = $(notdir $?)
 # environment
-WSLENV = ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID
+WSLENV = VSCODE_WSL_EXT_LOCATION/up
 # default
 .SHELLFLAGS := -c
 # environment
@@ -29,13 +29,13 @@ VSCODE_LOG_NATIVE = false
 # automatic
 @F = $(notdir $@)
 # makefile
-CURDIR := /home/leilei/workspace/code/grpc
+CURDIR := /home/leilei/code/grpc
 # makefile
 SHELL = /bin/sh
 # environment
 VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"42e84e0914b17800d483f69e299e1b00.zh-cn","_translationsConfigFile":"/home/leilei/.vscode-server/data/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/tcf.json","_cacheRoot":"/home/leilei/.vscode-server/data/clp/42e84e0914b17800d483f69e299e1b00.zh-cn","_resolvedLanguagePackCoreLocation":"/home/leilei/.vscode-server/data/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5","_corruptedFile":"/home/leilei/.vscode-server/data/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/corrupted.info","_languagePackSupport":true}
 # environment
-_ = /mnt/c/Users/13565/AppData/Local/Programs/Microsoft VS Code/bin/code
+_ = /home/leilei/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/node
 # makefile (from 'Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
 # 'override' directive
@@ -51,7 +51,7 @@ GOPROXY = https://goproxy.cn,direct
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /usr/local/go/bin:/home/leilei/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NetSarang/Xshell 7/:/mnt/c/Program Files (x86)/NetSarang/Xftp 7/:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/13565/scoop/shims:/mnt/c/Users/13565/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/13565/go/bin:/mnt/c/Users/13565/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/mysql-8.0.28-winx64/bin:/mnt/c/Program Files/JetBrains/GoLand 2021.3.3/bin:/mnt/c/Program Files/JetBrains/DataGrip 2021.3.4/bin:/mnt/c/Users/13565/go/bin:/home/leilei/go/bin:/usr/local/protoc/bin:/home/leilei/go/bin:/usr/local/protoc/bin:/home/leilei/go/bin:/usr/local/protoc/bin:/home/leilei/go/bin:/usr/local/protoc/bin
+PATH = /usr/local/go/bin:/home/leilei/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NetSarang/Xshell 7/:/mnt/c/Program Files (x86)/NetSarang/Xftp 7/:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/13565/scoop/shims:/mnt/c/Users/13565/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/13565/go/bin:/mnt/c/Users/13565/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/mysql-8.0.28-winx64/bin:/mnt/c/Program Files/JetBrains/GoLand 2021.3.3/bin:/mnt/c/Program Files/JetBrains/DataGrip 2021.3.4/bin:/mnt/c/Users/13565/go/bin:/home/leilei/go/bin
 # environment
 LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
@@ -59,7 +59,7 @@ GOPATH = /home/leilei/go
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-feb9c5c8-445a-419e-9aa4-27c9798e4818.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-c713f9c8-efa2-423e-b70b-126c455d7197.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -69,13 +69,11 @@ LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-PWD = /home/leilei/workspace/code/grpc
+PWD = /home/leilei/code/grpc
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/8_interop
-# environment
-WT_SESSION = 32a81ec5-bcc1-4631-bfac-c397a92784d7
+WSL_INTEROP = /run/WSL/11_interop
 # environment
 GOMODCACHE = /home/leilei/go/pkg/mod
 # environment
@@ -83,7 +81,7 @@ HOME = /home/leilei
 # environment
 LOGNAME = leilei
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 ZSH = /home/leilei/.oh-my-zsh
 # environment
@@ -97,7 +95,7 @@ MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
-SHLVL = 1
+SHLVL = 0
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -107,7 +105,7 @@ USER = leilei
 # environment
 GOROOT = /usr/local/go
 # environment
-NAME = Code
+NAME = DESKTOP-1DHO7NS
 # environment
 LESS = -R
 # automatic
@@ -134,10 +132,6 @@ MFLAGS = -pqrR
 +F = $(notdir $+)
 # environment
 VSCODE_HANDLES_SIGPIPE = true
-# environment
-WT_PROFILE_ID = {1bf9eda5-a644-42dd-9645-2e57355f816e}
-# environment
-WORKSPACE = /home/leilei/workspace
 # default
 MAKEFILES := 
 # automatic
@@ -165,7 +159,7 @@ VSCODE_EXTHOST_WILL_SEND_SOCKET = true
 # environment
 WSL_DISTRO_NAME = Ubuntu-20.04
 # variable set hash-table stats:
-# Load=76/1024=7%, Rehash=0, Collisions=5/99=5%
+# Load=73/1024=7%, Rehash=0, Collisions=5/96=5%
 
 # Pattern-specific Variable Values
 
@@ -173,9 +167,9 @@ WSL_DISTRO_NAME = Ubuntu-20.04
 
 # Directories
 
-# . (device 2064, inode 59828): 13 files, no impossibilities.
+# . (device 2064, inode 59828): 15 files, no impossibilities.
 
-# 13 files, no impossibilities in 1 directories.
+# 15 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -239,12 +233,12 @@ clean:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 21 / storage = 135 B / avg = 6 B
-# current buf: size = 8162 B / used = 135 B / count = 21 / avg = 6 B
+# strcache buffers: 1 (0) / strings = 23 / storage = 152 B / avg = 6 B
+# current buf: size = 8162 B / used = 152 B / count = 23 / avg = 6 B
 
-# strcache performance: lookups = 29 / hit rate = 27%
+# strcache performance: lookups = 31 / hit rate = 25%
 # hash-table stats:
-# Load=21/8192=0%, Rehash=0, Collisions=1/29=3%
-# Finished Make data base on Sat May 21 22:30:26 2022
+# Load=23/8192=0%, Rehash=0, Collisions=1/31=3%
+# Finished Make data base on Tue May 24 21:30:16 2022
 
  
